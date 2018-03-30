@@ -1,0 +1,17 @@
+{
+  "header_template":{
+    "MESSAGE":"JE SUIS LE HEADER",
+    "HELLO": "Bonjour",
+    "LOGOUT_BUTTON": "Se déconnecter"
+  },
+  "footer_template":{
+    "MESSAGE":"JE SUIS LE FOOTER"
+  },
+  "home":{
+    "TITLE":"Page d'accueil"
+  },
+  "login":{
+    "TITLE":"Page de connexion",
+    "HELLO": "Bonjour"
+  }
+}

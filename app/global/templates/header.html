@@ -1,0 +1,10 @@
+<header>
+    <img ng-click="setLang('en');" src="http://www.geonames.org/flags/x/gb.gif" width="30" height="20">
+    <img ng-click="setLang('fr');" src="http://www.geonames.org/flags/x/fr.gif" width="30" height="20">
+    <h2>{{'header_template.MESSAGE' | translate}}</h2>
+    <p ng-if="isSignedIn()">{{'login.HELLO' | translate}} {{getUser()}}</p>
+    <a href="#" ng-if="isSignedIn()" ng-click="logoutUser()" translate>
+        header_template.LOGOUT_BUTTON
+    </a>
+</header>
+<hr><br>

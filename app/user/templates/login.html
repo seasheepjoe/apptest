@@ -1,0 +1,7 @@
+<h4 translate>login.TITLE</h4>
+
+<form name="loginform" ng-submit="submitLogin(loginform)">
+    <input ng-model="username" required type="text" placeholder="username"><br>
+    <input ng-model="userpassword" required type="password" placeholder="********"><br>
+    <button ng-disabled="loginform.$invalid" type="submit">Valider</button>
+</form>

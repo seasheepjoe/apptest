@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="apptest">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script>
+    <script src="node_modules/angular-translate/dist/angular-translate.min.js"></script>
+    <script src="node_modules/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+    <script src="app.js"></script>
+    <script src="app/user/factories/userEntity.js"></script>
+    <script src="app/global/directives/code.js"></script>
+    <script src="app/global/directives/itemHandler.js"></script>
+    <script src="app/global/controllers/globalController.js"></script>
+    <script src="app/home/controllers/homeController.js"></script>
+    <script src="app/user/directives/phone.js"></script>
+    <script src="app/user/controllers/loginController.js"></script>
+    <script src="app/user/controllers/profileController.js"></script>
+</head>
+
+<body>
+    <ng-include ng-controller="globalController" src="'app/global/templates/header.html'"></ng-include>
+    <ng-view></ng-view>
+    <ng-include src="'app/global/templates/footer.html'"></ng-include>
+</body>
+</html>

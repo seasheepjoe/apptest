@@ -1,0 +1,8 @@
+<h4>Profile</h4>
+
+<form name="profileform" ng-submit="submitProfile(profileform)">
+    <input ng-model="username" required type="text" placeholder="username"><br>
+    <input ng-model="email" required type="email" placeholder="example@domain.com"><br>
+    <input ng-model="phone" required phone type="text" placeholder="0XXXXXXXXXX"><br>
+    <button ng-disabled="profileform.$invalid" type="submit">Valider</button>
+</form>
